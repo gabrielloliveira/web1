@@ -87,13 +87,47 @@ nav .right a{
   margin-top: 20px;
 }
 
+.missao-section{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  height: 50vh;
+}
+
+.missao-section img{
+  height: 50vh;
+  display: inline;
+  margin: 0 auto;
+  float: left;
+  /*padding: 5px;*/
+}
+
+.missao-section h3, .missao-section p{
+  display: block;
+  text-align: left;
+  padding: 20px;
+
+}
+
+.diretoria-section{
+  background-color: white;
+  color: black;
+  padding: 20px;
+  height: 50vh;
+}
+
+.diretoria-section h3{
+  padding: 30px;
+  text-align: center;
+}
+
 .Desenvolvedores{
   position: relative;
   border: 8px, solid white;
   box-shadow: 1px, 1px, 4px white;
 }
 
-.Desenvolvedores img{
+.Desenvolvedores img, .diretores img{
   width: 100px;
   height: 100px;
   display: inline-block;
