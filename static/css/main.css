@@ -4,7 +4,7 @@
 }
 
 nav{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.938);
   padding: 15px;
 }
 
@@ -87,8 +87,8 @@ nav .right a{
   margin-top: 20px;
 }
 
-.missao-section{
-  background-color: black;
+.missao-section,.eventos-section{
+  background-color: rgba(0, 0, 0, 0.938);
   color: white;
   padding: 20px;
   height: 50vh;
@@ -116,9 +116,30 @@ nav .right a{
   height: 50vh;
 }
 
-.diretoria-section h3{
+.diretoria-section h3, .eventos-section h3{
   padding: 30px;
   text-align: center;
+}
+
+.diretores img{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 10%;
+  border-radius: 50%;
+  transition: all 1s;
+}
+
+.eventos-section img{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 7%;
+  /* border-radius: 50%; */
+  transition: all 1s;
+  box-shadow: 0px 0px 10px rgba(247, 114, 26, 0.5);
 }
 
 .Desenvolvedores{
@@ -127,7 +148,7 @@ nav .right a{
   box-shadow: 1px, 1px, 4px white;
 }
 
-.Desenvolvedores img, .diretores img{
+.Desenvolvedores img{
   width: 100px;
   height: 100px;
   display: inline-block;
