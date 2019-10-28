@@ -34,6 +34,18 @@ nav .right a{
   right: 0px;
 }
 
+.escudo{
+  height: 50vh;
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
+  /* padding: 50px; */
+  /* height: 50vh;
+  display: inline;
+  margin: 0 auto;
+  float: left; */
+}
+
 .main-section{
   height: calc(100vh - 320px);
 }
@@ -47,7 +59,7 @@ nav .right a{
 .main-section p{
   transition: all 1s;
   margin-right: 25%;
-  margin-left: 25%;
+  margin-left: 30%;
   margin-top: 3%;
   text-align: center;
   font-weight: normal;
