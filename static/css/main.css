@@ -37,7 +37,7 @@ nav .right a{
 .escudo{
   height: 50vh;
   position: absolute;
-  bottom: 60px;
+  bottom: 120px;
   left: 80px;
   /* padding: 50px; */
   /* height: 50vh;
@@ -86,6 +86,7 @@ nav .right a{
   background-color: black;
   color: white;
   padding: 20px;
+  margin-top: 10%;
 }
 
 .secundary-section img{
@@ -103,7 +104,7 @@ nav .right a{
   background-color: rgba(0, 0, 0, 0.938);
   color: white;
   padding: 20px;
-  height: 50vh;
+  height: 60vh;
 }
 
 .missao-section img{
@@ -118,7 +119,6 @@ nav .right a{
   display: block;
   text-align: left;
   padding: 20px;
-
 }
 
 .diretoria-section{
@@ -168,4 +168,47 @@ nav .right a{
   margin-left: 19%;
   border-radius: 50%;
   transition: all 1s;
+}
+
+.Sobre_section{
+  height: calc(100vh - 320px);
+}
+
+.Sobre_section h2{
+  text-align: center;
+  margin-top: 10%;
+  /* margin-left: 10%; */
+  font-weight: normal;
+  margin-bottom: 3%;
+  margin-right: 15%;
+  margin-left: 40%;
+}
+
+.Sobre_section p{
+  transition: all 1s;
+  margin-right: 15%;
+  margin-left: 40%;
+  margin-top: 1%;
+  text-align: justify;
+  font-weight: normal;
+}
+
+.Sobre_section button{
+  background-color: #F0690E;
+  color: white;
+  padding: 15px;
+  display: block;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: .75rem;
+  margin-left: 40%;
+}
+
+.Sobre_section button:hover{
+  cursor: pointer;
+}
+
+.Missao{
+  padding: 20px;
 }
