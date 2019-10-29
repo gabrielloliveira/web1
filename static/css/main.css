@@ -35,9 +35,9 @@ nav .right a{
 }
 
 .escudo{
-  height: 50vh;
+  height: 350px;
   position: absolute;
-  bottom: 120px;
+  top: 200px;
   left: 80px;
   /* padding: 50px; */
   /* height: 50vh;
@@ -154,9 +154,6 @@ nav .right a{
   box-shadow: 0px 0px 10px rgba(247, 114, 26, 0.5);
 }
 
-.Sobre_section{
-  height: calc(100vh - 320px);
-}
 
 .Sobre_section h2{
   text-align: center;
@@ -175,18 +172,6 @@ nav .right a{
   margin-top: 1%;
   text-align: justify;
   font-weight: normal;
-}
-
-.Sobre_section button{
-  background-color: #F0690E;
-  color: white;
-  padding: 15px;
-  display: block;
-  margin-top: 20px;
-  border: none;
-  border-radius: 20px;
-  font-size: .75rem;
-  margin-left: 40%;
 }
 
 .Sobre_section button:hover{
