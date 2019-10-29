@@ -219,3 +219,14 @@ nav .right a{
   width: 490px;
   margin: 0 auto;
 }
+
+.rodape{
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.rodape h3, .rodape p{
+  text-align: center;
+  margin-top: 20px;
+}
