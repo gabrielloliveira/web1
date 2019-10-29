@@ -125,7 +125,7 @@ nav .right a{
   background-color: white;
   color: black;
   padding: 20px;
-  height: 50vh;
+  /* height: 50vh; */
 }
 
 .diretoria-section h3, .eventos-section h3{
