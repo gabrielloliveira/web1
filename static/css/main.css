@@ -289,3 +289,28 @@ a {
   width: 100%;
   height:120px;
 }
+
+.container{
+  padding: 20px;
+}
+
+.galeria{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;  
+  align-content: center;
+}
+
+.galeria div{
+  max-width: calc(100%/4 - 20px);
+  margin: 20px auto;
+}
+
+.galeria div img{
+  max-width: 100%;
+}
+
+.galeria figure figcaption{
+  text-align: center;
+}
