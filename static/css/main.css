@@ -48,6 +48,7 @@ nav .right a{
 
 .main-section{
   height: calc(100vh - 320px);
+  text-align: center;
 }
 
 .main-section h2{
@@ -65,20 +66,19 @@ nav .right a{
   font-weight: normal;
 }
 
-.main-section button{
+.main-section a{
   background-color: #F0690E;
   color: white;
   padding: 15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
   margin-top: 20px;
   border: none;
   border-radius: 20px;
   font-size: .75rem;
+  text-align: center;
 }
 
-.main-section button:hover{
+.main-section a:hover{
   cursor: pointer;
 }
 
