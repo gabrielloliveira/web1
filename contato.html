@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="static/css/main.css">
+    <script src="static/js/master.js"></script>
 </head>
 <body>
     <nav>
@@ -26,22 +27,22 @@
         <form class="form">
             <label> Nome</label>
             <br>
-            <input type="text" name="nome">
+            <input id="NomeP" type="text" name="nome" value="" required>
             <br>
             <label> Email</label>
             <br>
-            <input type="email" name="email">
+            <input type="email" name="email" required>
             <br>
             <label> Assunto</label>
             <br>
-            <input type="text" name="assunto">
+            <input type="text" name="assunto" required>
             <br>
             <label> Mensagem</label>
             <br>
             <textarea> </textarea>
             <br>
-            
-            <button type="submit"> Enviar</button>
+
+            <button type="submit" onclick="setCookie()"> Enviar</button>
         </form>
     </div>
     <div class="rodape">
@@ -49,7 +50,6 @@
             <p>#GoFox</p>
             <p>Todos os direitos reservados, 2019</p>
         </div>
-    </div>  
+    </div>
   </body>
 </html>
-  
