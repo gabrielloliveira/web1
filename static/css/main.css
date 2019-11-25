@@ -34,13 +34,6 @@ nav .right a{
   right: 0px;
 }
 
-.escudo{
-  height: 350px;
-  position: absolute;
-  top: 200px;
-  left: 80px;
-}
-
 .main-section{
   height: calc(100vh - 320px);
   text-align: center;
@@ -81,7 +74,6 @@ nav .right a{
   background-color: black;
   color: white;
   padding: 20px;
-  margin-top: 10%;
 }
 
 .secundary-section img{
@@ -156,24 +148,28 @@ nav .right a{
   box-shadow: 0px 0px 10px rgba(247, 114, 26, 0.5);
 }
 
+.Sobre_section .flex{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 25px;
+}
+
+.Sobre_section .flex img{
+  width: 100%;
+  height: auto;
+  margin: auto auto;
+}
 
 .Sobre_section h2{
   text-align: center;
   margin-top: 10%;
-  /* margin-left: 10%; */
   font-weight: normal;
-  margin-bottom: 3%;
-  margin-right: 15%;
-  margin-left: 40%;
 }
 
 .Sobre_section p{
   transition: all 1s;
-  margin-right: 15%;
-  margin-left: 40%;
-  margin-top: 1%;
   text-align: justify;
-  font-weight: normal;
 }
 
 .Sobre_section button:hover{
@@ -186,27 +182,31 @@ nav .right a{
   height: auto;
 }
 
+.is-bg-gray{
+  background-color: rgb(25, 22, 27);
+}
+
+.secundary-section .element .figures{
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
+  justify-content: center;
+}
+
 .element .Desenvolvedores{
-  display: inline-block;
+  margin: 0 10px;
   margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
 }
 
 .element .Desenvolvedores img{
   border-radius: 50%;
-  width: 120px;
+  width: 150px;
   height: auto;
 }
 
 .element .Desenvolvedores figcaption{
   font-size: 0.9rem;
   text-align: center;
-}
-
-.figures{
-  width: 490px;
-  margin: 0 auto;
 }
 
 .rodape{
@@ -337,6 +337,15 @@ a {
   .eventos-section img{
     width: 300px;
   }
+  .Sobre_section .flex{
+    justify-content: space-between;
+    flex-flow: row nowrap;
+  }
+  .Sobre_section .flex .image{
+    width: 100%;
+    margin-top: 5%;
+    margin-right: 50px;
+  }
 }
 @media (min-width: 1008px){
   .formulario{
@@ -361,5 +370,14 @@ a {
   }
   .eventos-section img{
     width: 300px;
+  }
+  .Sobre_section .flex{
+    justify-content: space-between;
+    flex-flow: row nowrap;
+  }
+  .Sobre_section .flex .image{
+    width: 50%;
+    margin-top: 2%;
+    margin-right: 50px;
   }
 }
