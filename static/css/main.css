@@ -389,3 +389,21 @@ a {
     margin: 20px auto;
   }
 }
+
+#imagem-sexo-masculino img{
+  position: absolute;
+  float: right;
+  bottom: 0;
+  right: 0;
+  height: 150px;
+  width: auto;
+}
+
+#imagem-sexo-feminino img{
+  position: absolute;
+  float: right;
+  bottom: 0;
+  right: 0;
+  height: 150px;
+  width: auto;
+}

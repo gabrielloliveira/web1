@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="static/css/main.css">
 </head>
-<body>
+<body onload="troca_imagem()">
     <nav>
     <div class="left">
         <a href="">AAA HardCore</a>
@@ -57,8 +57,19 @@
             <input type="file" id="foto" name="foto" required>
             <label for="foto" id="btupload"> Upload</label>
             <br>
+            <label for="sexo-masculino"> Masculino</label>
+            <input type="radio" id="sexo-masculino" name="sexo" required>
+            <label for="sexo-feminino"> Feminino</label>
+            <input type="radio" id="sexo-feminino" name="sexo" required>
+            <br>
             <button> Enviar</button>
         </form>
+    </div>
+    <div id="imagem-sexo-masculino" style="display: none;">
+        <img src="static/img/masculino.jpg" alt="">
+    </div>
+    <div id="imagem-sexo-feminino" style="display: none;">
+        <img src="static/img/feminino.jpg" alt="">
     </div>
     <div class="rodape">
         <div class="element">
@@ -67,5 +78,30 @@
         </div>
     </div>  
   </body>
+
+  <script>
+        function troca_imagem(){
+            const inputs = document.getElementsByName('sexo')
+
+            for(let i = 0; i < inputs.length; i++){
+                inputs[i].addEventListener('click', ()=>{
+                    let input_masculino = document.getElementById('sexo-masculino')
+                    let input_feminino = document.getElementById('sexo-feminino')
+                    let div_masculino = document.getElementById('imagem-sexo-masculino')
+                    let div_feminino = document.getElementById('imagem-sexo-feminino')
+
+                    if(input_masculino.checked){
+                        div_feminino.setAttribute('style', 'display: none')
+                        div_masculino.setAttribute('style', 'display: absolute')
+                    }
+                    if(input_feminino.checked){
+                        div_masculino.setAttribute('style', 'display: none')
+                        div_feminino.setAttribute('style', 'display: absolute')
+                    }
+                })
+            }
+        }
+  </script>
+
   </html>
   
