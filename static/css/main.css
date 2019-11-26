@@ -301,7 +301,7 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
   align-content: center;
 }
 
@@ -367,11 +367,56 @@ a {
   .missao-section .element .col-2 h3{
     text-align: left;
   }
+
+  .flex{
+      position: relative;
+  }
+
   .diretoria-section .flex img{
+    display: flex;
+    padding-bottom: 30px;
     margin: 0 0;
     margin-left: 10%;
     margin-top: 25px;
   }
+
+  .flex figcaption{
+    position: absolute;
+    font-size: 0.9rem;
+  }
+
+  .Linha1{
+      margin-top: 140px;
+  }
+
+  .Linha2{
+      margin-top: 290px;
+  }
+
+  .Linha3{
+      margin-top: 440px;
+  }
+
+  .Coluna1{
+      margin-left: 150px;
+  }
+
+  .Coluna2{
+      margin-left: 370px;
+  }
+
+  .Coluna3{
+      margin-left: 600px;
+  }
+
+  .Coluna4{
+      margin-left: 830px;
+  }
+
+  .Coluna5{
+      margin-left: 1055px;
+  }
+
   .eventos-section img{
     width: 300px;
   }
@@ -390,7 +435,23 @@ a {
   }
 }
 
-#imagem-sexo-masculino img{
+.imagem-sexo-masculino_Class{
+  position: absolute;
+  right: 500px;
+  top: 720px;
+  height: auto;
+  width: 50px;
+}
+
+.imagem-sexo-feminino_Class{
+  position: absolute;
+  right: 500px;
+  top: 720px;
+  height: auto;
+  width: 50px;
+}
+
+/* #imagem-sexo-masculino img{
   position: absolute;
   float: right;
   bottom: 0;
@@ -406,4 +467,4 @@ a {
   right: 0;
   height: 150px;
   width: auto;
-}
+} */
