@@ -116,15 +116,26 @@ nav .right a{
   padding: 25px;
 }
 
-.diretoria-section .flex img{
+.diretoria-section .flex figure{
   width: 100px;
   height: 100px;
   margin-top: 15px;
+  margin: 40px 50px;
+}
+
+.diretoria-section .flex figure img{
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  margin: 0 auto;
+}
+
+.diretoria-section .flex figure figcaption{
+  text-align: center;
 }
 
 .diretoria-section .flex{
+    padding-left: 150px;
+    padding-right: 100px;
   display: flex;
   flex-flow: row wrap;
 }
@@ -367,56 +378,11 @@ a {
   .missao-section .element .col-2 h3{
     text-align: left;
   }
-
-  .flex{
-      position: relative;
-  }
-
   .diretoria-section .flex img{
-    display: flex;
-    padding-bottom: 30px;
     margin: 0 0;
     margin-left: 10%;
     margin-top: 25px;
   }
-
-  .flex figcaption{
-    position: absolute;
-    font-size: 0.9rem;
-  }
-
-  .Linha1{
-      margin-top: 140px;
-  }
-
-  .Linha2{
-      margin-top: 290px;
-  }
-
-  .Linha3{
-      margin-top: 440px;
-  }
-
-  .Coluna1{
-      margin-left: 150px;
-  }
-
-  .Coluna2{
-      margin-left: 370px;
-  }
-
-  .Coluna3{
-      margin-left: 600px;
-  }
-
-  .Coluna4{
-      margin-left: 830px;
-  }
-
-  .Coluna5{
-      margin-left: 1055px;
-  }
-
   .eventos-section img{
     width: 300px;
   }
@@ -435,23 +401,7 @@ a {
   }
 }
 
-.imagem-sexo-masculino_Class{
-  position: absolute;
-  right: 500px;
-  top: 720px;
-  height: auto;
-  width: 50px;
-}
-
-.imagem-sexo-feminino_Class{
-  position: absolute;
-  right: 500px;
-  top: 720px;
-  height: auto;
-  width: 50px;
-}
-
-/* #imagem-sexo-masculino img{
+#imagem-sexo-masculino img{
   position: absolute;
   float: right;
   bottom: 0;
@@ -467,4 +417,20 @@ a {
   right: 0;
   height: 150px;
   width: auto;
-} */
+}
+
+.imagem-sexo-masculino_Class{
+  position: absolute;
+  right: 500px;
+  top: 720px;
+  height: auto;
+  width: 50px;
+}
+
+.imagem-sexo-feminino_Class{
+  position: absolute;
+  right: 500px;
+  top: 720px;
+  height: auto;
+  width: 50px;
+}
